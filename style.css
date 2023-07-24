@@ -1,0 +1,117 @@
+h1 {
+  text-align: center;
+  background-color: orange;
+  line-height: 50px;
+  justify-content: centre;
+  color: white;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Main divs styling */
+#style div {
+  background-color: white;
+  text-align: center;
+  width: 100px;
+  margin: 10px;
+  font-size: 30px;
+  padding: 20px;
+  line-height: 75px;
+  border-radius: 15px;
+  color: dodgerblue;
+}
+
+/* small divs styling */
+
+.main {
+  background-color: dodgerblue;
+  margin-top: 10px;
+  display: flex;
+}
+
+/* ////////////////////////////////////////////////// */
+
+/* The flex-direction Property */
+
+/* column */
+.column {
+  flex-direction: column;
+}
+
+/* column reverse */
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+/* row */
+.row {
+  flex-direction: row;
+}
+
+/* row reverse */
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+/* ////////////////////////////////////////////////// */
+
+/* flex wrap property */
+
+/* wrap */
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+/* nowrap */
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+/* wrap-reverse */
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* ////////////////////////////////////////////////// */
+
+/* The flex-flow poperty */
+
+.flex-flow {
+  flex-flow: row wrap;
+}
+
+/* ////////////////////////////////////////////////// */
+
+/* Justify Content styling */
+
+/* Space-between */
+
+.space-between {
+  justify-content: space-between;
+}
+
+/* Space around */
+
+.space-around {
+  justify-content: space-around;
+}
+
+/* Center */
+.centered {
+  justify-content: center;
+}
+
+/* flex start */
+.flex-start {
+  justify-content: flex-start;
+}
+
+/* flex start */
+.flex-end {
+  justify-content: flex-end;
+}
