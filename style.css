@@ -115,3 +115,144 @@ h3 {
 .flex-end {
   justify-content: flex-end;
 }
+
+/* ///////////////////////////////////////////////////// */
+
+/* align items property */
+
+/* Main divs styling */
+#aligny div {
+  background-color: white;
+  text-align: center;
+  line-height: 75px;
+  width: 100px;
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 15px;
+  color: dodgerblue;
+}
+
+/* small divs styling */
+
+.align {
+  background-color: dodgerblue;
+  margin-top: 10px;
+  display: flex;
+  height: 400px;
+}
+
+/* flex-start */
+.flex-start {
+  align-items: flex-start;
+}
+
+/* center */
+.align-center {
+  align-items: center;
+}
+
+/* flex-start */
+.flex-end {
+  align-items: flex-end;
+}
+
+/* Stretch */
+.strech {
+  align-items: Stretch;
+}
+
+/* Baseline */
+.Baseline {
+  align-items: baseline;
+}
+
+/* ///////////////////////////////////////////////////////// */
+
+/* align-content property */
+
+/* Main divs styling */
+#align-c div {
+  background-color: white;
+  text-align: center;
+  line-height: 75px;
+  width: 100px;
+  margin: 10px;
+  font-size: 30px;
+  border-radius: 15px;
+  color: dodgerblue;
+}
+
+/* small divs styling */
+
+.align-content {
+  background-color: dodgerblue;
+  overflow: scroll;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+}
+
+/* space-between */
+.space-between {
+  align-content: space-between;
+}
+
+/* space-around */
+.space-around {
+  align-content: space-around;
+}
+
+/* stretch */
+.stretch {
+  align-content: stretch;
+}
+
+/* center */
+.center {
+  align-content: center;
+}
+
+/* flex start */
+.flex-start {
+  align-content: flex-start;
+}
+
+/* flex end */
+.flex-end {
+  align-content: flex-end;
+}
+
+/* //////////////////////////////////////////////////////// */
+
+/* Perfect centering */
+
+/* Main divs styling */
+#perfect-c div {
+  background-color: white;
+  text-align: center;
+  line-height: 75px;
+  width: 100px;
+  margin: 10px;
+  height: 100px;
+  font-size: 30px;
+  border-radius: 15px;
+  color: dodgerblue;
+}
+
+/* small divs styling */
+
+.perfect-centering {
+  background-color: dodgerblue;
+  overflow: scroll;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+}
+
+/* centering */
+.perfect-center {
+  align-items: center;
+  justify-content: center;
+}
